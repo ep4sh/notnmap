@@ -3,6 +3,7 @@ is a simple network scanner in go, which use goroutines and channels for communi
 
 # How2run?
 ```
+ulimit -n 2000
 go build notnmap.go
 ./notnmap <host>
 ```
